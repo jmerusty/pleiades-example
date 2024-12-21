@@ -24,7 +24,9 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```bash
 git clone https://github.com/jmerusty/pleiades-example.git
-# option: open in vscode
+cd ./pleiades-example
+
+# optional: open in vscode
 code ./pleiades-example
 ```
 
