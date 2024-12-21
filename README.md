@@ -7,7 +7,7 @@ public mirror: <https://github.com/CREST-applications/pymec.git>
 
 ## Installation
 
-## 1. Install uv
+### 1. Install uv
 
 uv is a popular package manager for Python. You can easily install it and create a virtual environment for your project.
 Please checkout the official uv installation guide [here](https://docs.astral.sh/uv/getting-started/installation/).
@@ -20,7 +20,7 @@ for Linux and MacOS:
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-## 2. Clone this repository
+### 2. Clone this repository
 
 ```bash
 git clone https://github.com/jmerusty/pleiades-example.git
@@ -28,7 +28,7 @@ git clone https://github.com/jmerusty/pleiades-example.git
 code ./pleiades-example
 ```
 
-## 3. Initialize the project
+### 3. Initialize the project
 
 ```bash
 uv sync
@@ -36,7 +36,7 @@ uv sync
 
 Now, you can start your project no need to install specific version of Python or any other dependencies.
 
-## 4. Hello
+### 4. Hello
 
 ```bash
 uv run ./hello.py
@@ -62,7 +62,7 @@ cd ./examples
   uv run ./raw_requester.py
   ```
 
-## Option
+## Optional
 
 - Add the Python library
 
