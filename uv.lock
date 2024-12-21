@@ -44,6 +44,12 @@ wheels = [
 name = "examples"
 version = "0.1.0"
 source = { virtual = "examples" }
+dependencies = [
+    { name = "pymec" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pymec", git = "https://github.com/CREST-applications/pymec.git" }]
 
 [[package]]
 name = "exceptiongroup"
@@ -109,7 +115,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pymec", git = "https://git.dolylab.cc/mec/pymec.git" }]
+requires-dist = [{ name = "pymec", git = "https://github.com/CREST-applications/pymec.git" }]
 
 [[package]]
 name = "pydantic"
@@ -203,7 +209,7 @@ wheels = [
 [[package]]
 name = "pymec"
 version = "0.3.0"
-source = { git = "https://git.dolylab.cc/mec/pymec.git#daa4a1b2f17481c17a8b72256742d64a17f60d83" }
+source = { git = "https://github.com/CREST-applications/pymec.git#9c5510509e1865454bd7478e8650103f223c9042" }
 dependencies = [
     { name = "httpx" },
     { name = "pydantic" },

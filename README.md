@@ -31,6 +31,12 @@ uv sync
 
 Now, you can start your project no need to install specific version of Python or any other dependencies.
 
+## 4. Hello
+
+```bash
+uv run ./hello.py
+```
+
 ## Run Examples
 
 ```bash
@@ -40,11 +46,11 @@ cd ./examples
 - raw_worker
   
   ```bash
-  uv run raw_worker.py
+  uv run ./raw_worker.py
   ```
 
 - raw_requester
 
   ```bash
-  uv run raw_requester.py
+  uv run ./raw_requester.py
   ```

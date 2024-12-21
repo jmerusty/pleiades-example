@@ -8,8 +8,8 @@ dependencies = [
     "pymec",
 ]
 
-[tool.uv.sources]
-pymec = { git = "https://git.dolylab.cc/mec/pymec.git" }
-
 [tool.uv.workspace]
 members = ["examples"]
+
+[tool.uv.sources]
+pymec = { git = "https://github.com/CREST-applications/pymec.git" }
