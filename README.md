@@ -12,7 +12,7 @@ public mirror: <https://github.com/CREST-applications/pymec.git>
 uv is a popular package manager for Python. You can easily install it and create a virtual environment for your project.
 Please checkout the official uv installation guide [here](https://docs.astral.sh/uv/getting-started/installation/).
 
-Your project dependencies are kept in your local repository, so you don't have to use Docker to pollute your environment.
+Your project dependencies are kept in your local repository, so you don't have to use Docker to prevent from polluting your environment.
 
 for Linux and MacOS:
 
