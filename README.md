@@ -1,6 +1,9 @@
 # Pleiades Example
 
 This is an example project for studying the Pleiades.
+The original Pymec is different repository.
+
+mirror: <https://github.com/CREST-applications/pymec.git>
 
 ## Installation
 
