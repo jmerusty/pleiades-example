@@ -23,7 +23,9 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ## 2. Clone this repository
 
 ```bash
-git clone https://git.dolylab.cc/mec/pymec.git
+git clone https://github.com/jmerusty/pleiades-example.git
+# option: open in vscode
+code ./pleiades-example
 ```
 
 ## 3. Initialize the project
