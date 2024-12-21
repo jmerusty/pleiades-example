@@ -27,7 +27,7 @@ git clone https://github.com/jmerusty/pleiades-example.git
 cd ./pleiades-example
 
 # optional: open in vscode
-code ./pleiades-example
+code .
 ```
 
 ### 3. Initialize the project
