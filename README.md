@@ -3,7 +3,7 @@
 This is an example project for studying the Pleiades.
 The original Pymec is different repository.
 
-mirror: <https://github.com/CREST-applications/pymec.git>
+public mirror: <https://github.com/CREST-applications/pymec.git>
 
 ## Installation
 
@@ -42,6 +42,8 @@ uv run ./hello.py
 
 ## Run Examples
 
+First, move to the examples directory.
+
 ```bash
 cd ./examples
 ```
@@ -56,4 +58,19 @@ cd ./examples
 
   ```bash
   uv run ./raw_requester.py
+  ```
+
+## Option
+
+- Add the Python library
+
+  ```bash
+  uv add <package> # e.g. `uv add numpy`
+  ```
+
+- Change the Python version
+
+  ```bash
+  uv python install <version> # e.g. `uv python install 3.13`
+  uv python pin <version> # e.g. `uv python pin 3.13`
   ```
